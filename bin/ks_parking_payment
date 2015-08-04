@@ -1,0 +1,12 @@
+require "ks_parking_payment"
+
+if ARGV.size == 2
+  begin
+    KsParkingPayment.print ARGV[0],ARGV[1]
+  rescue Exception => e
+    puts e
+  end
+else 
+ puts "[C] : Car , [M] : motorcycle"
+ puts "Usage: parking 5260-GG C "
+end
