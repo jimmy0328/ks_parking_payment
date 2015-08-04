@@ -2,6 +2,22 @@
 
 TODO: Write a gem description
 
+## Usage
+```
+gem install https://github.com/jimmy0328/ks_parking_payment
+```
+
+And then execute:
+
+```
+parking [car number] [Type]
+```
+
+    汽車
+    ex: parking 9999-GG C
+    機車
+    ex: parking 9999-YY M
+
 ## Installation
 
 Add this line to your application's Gemfile:
